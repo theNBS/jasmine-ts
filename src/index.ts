@@ -19,6 +19,8 @@ const TS_NODE_OPTIONS = [
   "compilerOptions",
   "transpileOnly",
   "typeCheck",
+  "files",
+  "pretty",
 ];
 
 const tsNodeOptions = Object.assign({}, ...TS_NODE_OPTIONS.map((option) => {
