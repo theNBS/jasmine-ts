@@ -21,6 +21,14 @@ const TS_NODE_OPTIONS = [
   "typeCheck",
   "files",
   "pretty",
+  "compilerHost",
+  "ignoreDiagnostics",
+  "skipIgnore",
+  "transpiler",
+  "preferTsExts",
+  "require",
+  "cwd",
+  "emit"
 ];
 
 const tsNodeOptions = Object.assign({}, ...TS_NODE_OPTIONS.map((option) => {
